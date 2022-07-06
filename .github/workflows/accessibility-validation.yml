@@ -24,11 +24,11 @@ jobs:
               uses: jgibson2019/gh-action-test-repo@main
               with:
                   # Provide either static-site-dir or url
-                  # static-site-dir: ${{ github.workspace }}/public
+                  static-site-dir: ${{ github.workspace }}/public
                   # url: your-website-url
                   # static-site-url-relative-path: "/"
-                  hosting-mode: dynamicSite
-                  url: https://www.washington.edu/accesscomputing/AU/before.html 
+                  hosting-mode: staticSite
+                  # url: https://www.washington.edu/accesscomputing/AU/before.html 
                   fail-on-accessibility-error: false
 
             - name: Upload report artifact
