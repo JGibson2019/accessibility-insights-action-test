@@ -28,7 +28,7 @@ jobs:
                   # url: your-website-url
                   # static-site-url-relative-path: "/"
                   hosting-mode: dynamicSite
-                  url: https://accessibilityinsights.io 
+                  url: https://www.washington.edu/accesscomputing/AU/before.html
                   fail-on-accessibility-error: false
 
             - name: Upload report artifact
